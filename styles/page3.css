@@ -1,0 +1,90 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+h1.logo {
+    color: #ff6600;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+}
+
+h2.details-title {
+    color: #4a4a4a;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: "Merriweather", serif;
+}
+
+.details p {
+    font-size: 18px;
+    color: #4a4a4a;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.details strong {
+    font-weight: 600;
+    color: #ff6600; /* Making the labels orange for emphasis */
+}
+
+.details span {
+    font-weight: 500;
+    color: #333; /* Darker color for the actual values */
+    display: block;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.back-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #e65c00;
+}
+
+.footer-text {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.footer-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mulah Loyalty</title>
+  <link rel="stylesheet" href="../styles/page1.css">
+</head>
+<body>
+  <div id="page1" class="container">
+    <h1 class="logo">MULAH</h1>
+    <h2 class="welcome-text">
+      Hello, <br />
+      Welcome!
+    </h2>
+    <p class="subtext">Check Your Loyalty Points & Rewards</p>
+    <div class="phone-input-container">
+      <select id="countryCode">
+        <option value="+60" selected>+60</option>
+        <option value="+65">+65</option>
+        <option value="+1">+1</option>
+        <option value="+238">+238</option>
+        <option value="+291">+291</option>
+        <option value="+47">+47</option>
+      </select>
+      <div class="input-wrapper">
+        <input id="phoneInput" type="number" placeholder="Enter your mobile number" />
+        <!-- Circular tick inside the box -->
+        <div class="tick-circle">
+          <div class="tick-mark"></div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Error message (hidden by default) -->
+    <p class="error" id="phoneError" style="display: none;">Invalid phone number</p>
+    
+    <a id="checkPoints" href="page2.html">
+      <button>Check Loyalty Points</button>
+    </a>
+    
+    <!-- Footer -->
+    <p class="footer-text">
+      Powered by 
+      <a href="https://MulahRewards.com" target="_blank" class="footer-link">MulahRewards.com</a>
+    </p>
+  </div>
+  
+      
+
+  <script src="../scripts/page1.js"></script>
+</body>
+</html>

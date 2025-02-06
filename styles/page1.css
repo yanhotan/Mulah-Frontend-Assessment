@@ -1,0 +1,186 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  background: #fff;
+  padding: 60px; /* Increased padding for a more spacious look */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px; /* Add margin between sections */
+}
+
+h1.logo {
+  color: #ff6600;
+  font-size: 40px; /* Increased font size */
+  margin-bottom: 30px; /* Larger gap below logo */
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+}
+
+h2.welcome-text {
+  color: #4a4a4a;
+  font-size: 30px; /* Increased font size */
+  font-weight: 400;
+  margin-bottom: 20px; /* Larger margin */
+  text-align: left;
+  font-family: "Merriweather", serif;
+  line-height: 1.6; /* Slightly more line height for better readability */
+}
+
+p.subtext {
+  color: #ff6600;
+  font-size: 18px; /* Slightly increased font size */
+  margin-bottom: 40px; /* Larger margin below subtext */
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.phone-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px; /* Adds more space between country code and phone number */
+  margin: 30px 0; /* Increased margin for more spacing */
+}
+
+.phone-input-container select {
+  width: 70px; /* Increased width for better visibility of country code */
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid #ff6600;
+  font-size: 18px; /* Slightly increased font size */
+  color: #4a4a4a;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.phone-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px; /* Adds space between elements */
+  margin: 30px 0;
+  position: relative; /* Allows positioning the tick-circle */
+}
+
+.phone-input-container select {
+  width: 70px; /* Increased width for better visibility of country code */
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid #ff6600;
+  font-size: 18px;
+  color: #4a4a4a;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.phone-input-container {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Adds space between country code and input */
+  margin: 30px 0;
+}
+
+.phone-input-container select {
+  width: 70px; /* Width for country code selector */
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid #ff6600;
+  font-size: 18px;
+  color: #4a4a4a;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.input-wrapper {
+  flex: 1;
+  position: relative; /* Positioning for tick alignment */
+}
+
+.input-wrapper input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ff6600;
+  padding: 10px 5px 10px 10px; /* Right padding ensures spacing from tick */
+  font-size: 18px;
+  color: #4a4a4a;
+  background-color: transparent;
+  outline: none;
+}
+
+.tick-circle {
+  width: 25px; /* Circle size */
+  height: 25px;
+  border-radius: 50%;
+  background-color: #ccc; /* Grey color */
+  position: absolute;
+  top: 50%; /* Aligns vertically */
+  transform: translateY(-50%);
+  right: 0px; /* Right-aligned inside the input */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tick-mark {
+  width: 10px;
+  height: 5px;
+  border: solid #fff; /* White tick */
+  border-width: 0 2px 2px 0;
+  transform: rotate(135deg) scaleY(-1);/* Rotates the tick */
+}
+
+
+button {
+  background-color: #ff6600;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 30px;
+}
+
+.footer-text {
+  margin-top: 40px; /* Adds spacing above the footer */
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+.footer-link {
+  color: #007bff; /* Blue color for the link */
+  text-decoration: none; /* Removes underline */
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}

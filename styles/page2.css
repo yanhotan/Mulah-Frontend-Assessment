@@ -1,0 +1,137 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 400px;
+    width: 100%;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1.logo {
+    color: #ff6600;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  h2.registration-title {
+    color: #4a4a4a;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  p.registration-subtext {
+    font-size: 15px;
+    color: #7a7a7a;
+    margin-bottom: 25px;
+    text-align: left;
+    font-style: italic;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4a4a4a;
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+  
+  /* Input styling */
+  input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+  }
+  
+  /* Birthday input layout */
+  .birthday-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .birthday-container input {
+    width: 32%;
+    text-align: center;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+    margin-top: 5px;
+    display: none;
+  }
+  
+  /* Checkbox container alignment */
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .checkbox-container input {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  /* Footer */
+  .footer-text {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #4a4a4a;
+    text-align: center;
+  }
+  
+  .footer-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
