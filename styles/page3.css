@@ -47,12 +47,12 @@ h2.details-title {
 
 .details strong {
     font-weight: 600;
-    color: #ff6600; /* Making the labels orange for emphasis */
+    color: #ff6600;
 }
 
 .details span {
     font-weight: 500;
-    color: #333; /* Darker color for the actual values */
+    color: #333; 
     display: block;
     margin-top: 5px;
     font-size: 18px;

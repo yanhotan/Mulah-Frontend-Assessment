@@ -23,7 +23,7 @@ function saveRegistrationData() {
     localStorage.setItem('name', name);
     localStorage.setItem('birthday', `${day}-${month}-${year}`);
     localStorage.setItem('email', emailValue);
-    localStorage.setItem('phoneNumber', '+60173527250'); // Example phone number
+    localStorage.setItem('phoneNumber', '+60173527250');
 
     // Redirect to page 3 after successful data submission
     window.location.href = 'page3.html';  // Navigate to page 3

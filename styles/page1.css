@@ -15,16 +15,16 @@ body {
   width: 100%;
   text-align: center;
   background: #fff;
-  padding: 60px; /* Increased padding for a more spacious look */
+  padding: 60px; 
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 40px; /* Add margin between sections */
+  margin-bottom: 40px; 
 }
 
 h1.logo {
   color: #ff6600;
-  font-size: 40px; /* Increased font size */
-  margin-bottom: 30px; /* Larger gap below logo */
+  font-size: 40px; 
+  margin-bottom: 30px; 
   text-align: center;
   font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
@@ -32,18 +32,18 @@ h1.logo {
 
 h2.welcome-text {
   color: #4a4a4a;
-  font-size: 30px; /* Increased font size */
+  font-size: 30px; 
   font-weight: 400;
-  margin-bottom: 20px; /* Larger margin */
+  margin-bottom: 20px; 
   text-align: left;
   font-family: "Merriweather", serif;
-  line-height: 1.6; /* Slightly more line height for better readability */
+  line-height: 1.6; 
 }
 
 p.subtext {
   color: #ff6600;
-  font-size: 18px; /* Slightly increased font size */
-  margin-bottom: 40px; /* Larger margin below subtext */
+  font-size: 18px; 
+  margin-bottom: 40px; 
   text-align: left;
   font-family: "Roboto", sans-serif;
 }
@@ -52,16 +52,16 @@ p.subtext {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 15px; /* Adds more space between country code and phone number */
-  margin: 30px 0; /* Increased margin for more spacing */
+  gap: 15px; 
+  margin: 30px 0; 
 }
 
 .phone-input-container select {
-  width: 70px; /* Increased width for better visibility of country code */
+  width: 70px; 
   height: 40px;
   border: none;
   border-bottom: 2px solid #ff6600;
-  font-size: 18px; /* Slightly increased font size */
+  font-size: 18px; 
   color: #4a4a4a;
   padding: 5px;
   background-color: transparent;
@@ -71,13 +71,13 @@ p.subtext {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 15px; /* Adds space between elements */
+  gap: 15px; 
   margin: 30px 0;
   position: relative; /* Allows positioning the tick-circle */
 }
 
 .phone-input-container select {
-  width: 70px; /* Increased width for better visibility of country code */
+  width: 70px; 
   height: 40px;
   border: none;
   border-bottom: 2px solid #ff6600;
@@ -90,12 +90,12 @@ p.subtext {
 .phone-input-container {
   display: flex;
   align-items: center;
-  gap: 15px; /* Adds space between country code and input */
+  gap: 15px; 
   margin: 30px 0;
 }
 
 .phone-input-container select {
-  width: 70px; /* Width for country code selector */
+  width: 70px; 
   height: 40px;
   border: none;
   border-bottom: 2px solid #ff6600;
@@ -107,14 +107,14 @@ p.subtext {
 
 .input-wrapper {
   flex: 1;
-  position: relative; /* Positioning for tick alignment */
+  position: relative;
 }
 
 .input-wrapper input {
   width: 100%;
   border: none;
   border-bottom: 2px solid #ff6600;
-  padding: 10px 5px 10px 10px; /* Right padding ensures spacing from tick */
+  padding: 10px 5px 10px 10px; 
   font-size: 18px;
   color: #4a4a4a;
   background-color: transparent;
@@ -122,14 +122,14 @@ p.subtext {
 }
 
 .tick-circle {
-  width: 25px; /* Circle size */
+  width: 25px; 
   height: 25px;
   border-radius: 50%;
-  background-color: #ccc; /* Grey color */
+  background-color: #ccc; 
   position: absolute;
-  top: 50%; /* Aligns vertically */
+  top: 50%; 
   transform: translateY(-50%);
-  right: 0px; /* Right-aligned inside the input */
+  right: 0px; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,9 +138,9 @@ p.subtext {
 .tick-mark {
   width: 10px;
   height: 5px;
-  border: solid #fff; /* White tick */
+  border: solid #fff; 
   border-width: 0 2px 2px 0;
-  transform: rotate(135deg) scaleY(-1);/* Rotates the tick */
+  transform: rotate(135deg) scaleY(-1);
 }
 
 
@@ -158,19 +158,19 @@ button {
 }
 
 .footer-text {
-  margin-top: 40px; /* Adds spacing above the footer */
+  margin-top: 40px; 
   font-size: 14px;
   color: #4a4a4a;
 }
 
 .footer-link {
-  color: #007bff; /* Blue color for the link */
-  text-decoration: none; /* Removes underline */
+  color: #007bff; 
+  text-decoration: none; 
   font-weight: bold;
 }
 
 .footer-link:hover {
-  text-decoration: underline; /* Adds underline on hover */
+  text-decoration: underline; 
 }
 
 

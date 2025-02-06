@@ -24,10 +24,8 @@ function checkLoyaltyPoints() {
     if (!validatePhoneNumber()) return;  // If validation fails, exit the function
 
     // Check if the phone number is numeric
-    
         // Store the phone number in localStorage (or sessionStorage)
         localStorage.setItem('phoneNumber', phoneInput);
-        // Redirect to the second page (page 2)
         window.location.href = '../html/page2.html';  // Replace with actual page 2 URL
         // Redirect to page 2 based on directory
         const path = window.location.pathname;
